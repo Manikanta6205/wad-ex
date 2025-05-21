@@ -1,0 +1,104 @@
+.app {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .bookmark-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .bookmark-form input,
+  .bookmark-form textarea,
+  .bookmark-form button {
+    width: 75%;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+
+  .bookmark-form input {
+    height: 20px;
+  }
+  
+  .bookmark-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .bookmark-table th,
+  .bookmark-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .bookmark-table th {
+    background-color: #f4f4f4;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  .card {
+    background-color: antiquewhite;
+  }
+
+  .search-bar {
+    padding: 10px;
+    width: 75%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 20px auto;
+    display: block;
+  }
+
+  header h1 {
+    color: white;
+  }
+
+  header {
+    background-color: #0056b3;
+    padding: 1px;
+    padding-left: 25px;
+  }
+
+  /* main {
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+  } */
+
+  .card {
+    background-color: lightblue;
+    border-radius: 15px;
+    padding: 15px;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .export-btn {
+    display: block;
+    margin: auto;
+  }
+
+  main {
+    margin: 30px auto;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+  }

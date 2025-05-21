@@ -1,0 +1,16 @@
+i want to build an attendence app with features:
+1. User authentication (login/signup)
+2. User profile management
+3. Attendance tracking (check-in/check-out)
+4. Reporting (daily/weekly/monthly attendance reports)
+5. Notifications (reminders for check-in/check-out)
+6. Admin dashboard (manage users, view reports)
+7. Integration with calendar (Google Calendar, Outlook)
+8. Mobile app (iOS and Android)
+9. Offline mode (store data locally when offline)
+10. Data export (CSV, PDF)
+11. Multi-language support
+12. User roles (admin, user)
+13. Geolocation (check-in/check-out based on location)
+14. QR code scanning for check-in/check-out
+15. Biometric authentication (fingerprint, face recognition)

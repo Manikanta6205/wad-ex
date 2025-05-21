@@ -1,0 +1,27 @@
+{
+  "name": "dictionary-server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "start:local": "USE_LOCAL_DB=true node server.js",
+    "dev:local": "USE_LOCAL_DB=true nodemon server.js",
+    "seed": "node seed-dictionary.js",
+    "seed:local": "USE_LOCAL_DB=true node seed-dictionary.js",
+    "init:local": "node init-local-db.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "mongodb": "^6.0.0",
+    "mongoose": "^7.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
